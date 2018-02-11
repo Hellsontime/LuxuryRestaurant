@@ -1,0 +1,306 @@
+body {
+  font-family: 'Sintony', sans-serif;
+  color: #5c6369;
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.text {
+  line-height: 27px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: #14141d;
+}
+
+.main-header {
+  padding: 24px 0;
+}
+
+.menu {
+  margin-top: 15px;
+}
+
+.menu__item {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.menu__item a {
+  color: #2c465a;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.menu__item a:hover {
+  color: #FEA100;
+    border-bottom: 2px solid #FEA100;
+}
+
+
+.book {
+  background: #fea100;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  display: block;
+  cursor: pointer;
+  width: 200px;
+  border: 0px;
+  font-weight:700;
+  margin-top: -5px;
+}
+
+.book__icon {
+  background: url('../img/order.png');
+  width: 21px;
+  height: 17px;
+  display: block;
+  margin-right: 13px;
+}
+
+.offer {
+  background: url('../img/first-bg.jpg') no-repeat center top / cover;
+}
+
+.title {
+  padding: 220px 0;
+}
+
+.title__heading {
+  font-size: 56px;
+  color: #fff;
+  margin-bottom: -10px;
+}
+
+.title__intro {
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+  font-size: 40px;
+}
+
+.title__intro span {
+  color: #fea100;
+}
+
+.call {
+  background: #edf1f3;
+  border-bottom: 1px #dde3e7 solid;
+  height: 100px;
+  padding: 30px 0;
+}
+
+.yellow {
+  color: #fea100;
+}
+
+.phone {
+  width: 453px;
+}
+
+.phone__text {
+  background: url('../img/phone.png') no-repeat center left;
+  font-size: 14px;
+  color: #14141d;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 180px;
+  padding-left: 50px;
+}
+
+.phone__text span {
+  font-size: 16px;
+  margin-top: -4px;
+  display: block;
+
+}
+
+.phone__number {
+  font-size: 32px;
+  font-family: 'Playfair Display', serif;
+  color: #14141d;
+  font-weight: 700;
+  padding-left: 56px;
+  margin-top: -3px;
+}
+
+.cta {
+  background: #fea100;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  display: block;
+  cursor: pointer;
+  width: 200px;
+  border: 0px;
+  font-weight:700;
+  margin-top: -5px;
+}
+
+.about {
+  padding: 120px 0;
+}
+
+.history__btn {
+  margin-top: 32px;
+}
+
+.history__title {
+  font-size: 35px;
+
+}
+
+.history__text {
+  font-size: 14px;
+  margin-top: 32px;
+
+}
+
+.history__text span {
+  color: #FEA100;
+
+}
+
+.food-images {
+
+}
+
+.food-images__down {
+  margin-top: 50px;
+}
+
+.food-images__item {
+  margin-bottom: 10px;
+}
+
+.special {
+  background: url('../img/third-bg.jpg') no-repeat center top;
+  padding: 100px 0px 120px 0px;
+}
+
+.title-special {
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+}
+
+.food-card {
+  margin-top: 30px;
+  text-align: center;
+  transition: 0.5s;
+  box-shadow: 0 15px 90px rgba(0,0,0,0.2)
+}
+
+.food-card:hover {
+  transform: scale(1.02);
+}
+
+.food-card__img {
+
+}
+
+.food-card__title {
+  font-size: 26px;
+  margin-top: 46px;
+}
+
+.food-card__text {
+  font-size: 14px;
+  width: 430px;
+
+  line-height: 27px;
+  margin-top: 15px;
+}
+
+.food-card__details {
+  border-top: 1px solid #e1e1e1;
+  margin: 0 45px;
+  font-weight: 700;
+  text-align: left;
+  padding: 18px 0;
+  margin-top: 60px;
+}
+
+.food__del {
+  text-transform: uppercase;
+  font-size: 13px;
+  width: 78px;
+  border-right: 1px solid #e1e1e1;
+  margin-right: 18px;
+}
+
+.food__del span {
+  text-transform: uppercase;
+  color: #fe4c8d;
+}
+
+
+.food__num {
+  font-size: 26px;
+  font-family: 'Playfair Display', serif;
+  color: #000;
+}
+
+.food__price {
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+}
+
+.footer {
+  background: #373844;
+  color: #93989e;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 72px 0 106px 0;
+}
+
+.social {
+  width: 192px;
+}
+
+.social__item {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: block;
+  cursor: pointer;
+  margin: 0 7px;
+  margin-bottom: 50px;
+}
+
+.social__item_fb  {
+  background: #3B5998 url('../img/fb.png') no-repeat center center;
+}
+
+.social__item_tw  {
+  background: #55ACEE url('../img/tw.png') no-repeat center center;
+}
+
+.social__item_g  {
+  background: #DD4B39 url('../img/g.png') no-repeat center center;
+}
+
+.line {
+  background: #52535e;
+  height: 1px;
+  margin-top: 8px;
+}
+
+.credits {
+  color: #ADB2B7;
+  text-align: center;
+}
